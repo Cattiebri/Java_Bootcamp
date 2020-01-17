@@ -11,12 +11,58 @@ public class RandomPerson {
 	// HINT: use Alt+Shift+A to switch to Block selection (multi-line cursor)
 	// to edit list of all properties at once
 	// START
+    private String name;
+    private int age;
+    private float weight;
+    private boolean isFemale;
+    private char smile;
+
 
 	// END
 
 	// TODO Generate getters and setters for all private fields of the class
 	// START
 
-	// END
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public float getWeight() {
+        return weight;
+    }
+
+    public void setWeight(float weight) {
+        this.weight = weight;
+    }
+
+    public boolean isFemale() {
+        return isFemale;
+    }
+
+    public void setFemale(boolean female) {
+        isFemale = female;
+    }
+
+    public char getSmile() {
+        return smile;
+    }
+
+    public void setSmile(char smile) {
+        this.smile = smile;
+    }
+
+    // END
 
 }

@@ -23,7 +23,9 @@ public class BlackKnight {
 		// TODO initialize new array of knights with the passed size.
 		// Reset total numbers of total and alive knights to zero
 		// START
-
+		BlackKnight[] newKnights = new BlackKnight[initialNumber];
+		totalKnights = 0;
+		aliveKnights = 0;
 		// END
 	}
 
@@ -37,7 +39,17 @@ public class BlackKnight {
 		// HINT: use "this.name" to access name of knight which otherwise is shadowed
 		// by parameter of constructor, which is also called "name"
 		// START
-
+		this.name = name;
+		this.arms = 2;
+		this.legs = 2;
+		this.head = 1;
+		this.alive = true;
+		for(int i = 0; i<knights.length; i++){
+			if(knights[i] == null){
+			knights[i] = this;
+			break;
+			}
+		}
 		// END
 	}
 
@@ -47,9 +59,17 @@ public class BlackKnight {
 		// If knight has some arms, cut one off and return "Bugger!"
 		// Else return just "Haah!"
 		// START
-
+		String answer = "";
+		if(!this.alive){
+			answer = "Only chicken beats dead!";
+		} else if (this.arms == 1 || this.arms == 2){
+			this.arms -= 1;
+			answer = "Bugger!";
+		} else{
+			answer = "Haah!";
+		}
 		// END
-		return "";
+		return answer;
 	}
 
 	public String cutOffLeg() {
@@ -58,9 +78,17 @@ public class BlackKnight {
 		// If knight has some legs, cut one off and return "Bollocks!"
 		// Else return just "Haah!"
 		// START
-
+		String answer = "";
+		if(!this.alive){
+			answer = "Only chicken beats dead!";
+		} else if (this.legs == 1 || this.legs == 2){
+			this.legs -= 1;
+			answer = "Bollocks!";
+		} else{
+			answer = "Haah!";
+		}
 		// END
-		return "";
+		return answer;
 	}
 
 	public String cutOffHead() {
@@ -73,7 +101,21 @@ public class BlackKnight {
 		// Where "Arthur, Cnut" are names of still alive knights
 		// Else return "You'l burn in hell forever!"
 		// START
+		String answer = "";
+		if(!this.alive){
+			answer = "Only chicken beats dead!";
+		} else if (this.alive && this.head == 1){
+			this.head -= 1;
+			aliveKnights -=1;
+			deadKnights +=1;
+//			if(aliveKnights>0){
+//				answer = "You'l newer win!" + + "will still fight!";
+//			}
 
+			answer = "Bollocks!";
+		} else{
+			answer = "Haah!";
+		}
 		// END
 		return "";
 	}
