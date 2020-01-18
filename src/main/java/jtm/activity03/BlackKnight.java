@@ -109,7 +109,7 @@ public class BlackKnight {
 			aliveKnights -=1;
 			deadKnights +=1;
 //			if(aliveKnights>0){
-//				answer = "You'l newer win!" + + "will still fight!";
+//				answer = "You'l newer win!" + BlackKnight. + "will still fight!";
 //			}
 
 			answer = "Bollocks!";

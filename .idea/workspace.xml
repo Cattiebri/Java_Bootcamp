@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="72df9034-5aec-4dbd-8a28-40774da62404" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity03/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/activity03/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/JTM.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/JTM.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity03/BlackKnight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/activity03/BlackKnight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity03/RandomPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/activity03/RandomPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity03/RandomPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jtm/activity03/RandomPerson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jtm/extra01/Zodiac.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jtm/extra01/Zodiac.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity03/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jtm/activity03/Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity03/BlackKnight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jtm/activity03/BlackKnight.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,95 +42,96 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.BlackKnightTest1">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jtm.activity03.Array" />
-      <module name="JTM_SO" />
-      <option name="PROGRAM_PARAMETERS" value="4 6 2 55 33 23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jtm.activity03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EvenNumbersTest1">
+    <configuration name="DiceHistogramTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jtm.activity03.*" />
+          <option name="PATTERN" value="jtm.tasks.fundamentals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jtm.activity03" />
-      <option name="MAIN_CLASS_NAME" value="jtm.activity03.ArrayTest1" />
+      <option name="PACKAGE_NAME" value="jtm.tasks.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="jtm.tasks.fundamentals.DiceHistogramTest1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlackKnightTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EvenNumbersTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jtm.activity03.*" />
+          <option name="PATTERN" value="jtm.tasks.fundamentals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jtm.activity03" />
-      <option name="MAIN_CLASS_NAME" value="jtm.activity03.BlackKnightTest1" />
+      <option name="PACKAGE_NAME" value="jtm.tasks.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="jtm.tasks.fundamentals.EvenNumbersTest1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomPersonTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxMultipleTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jtm.activity03.*" />
+          <option name="PATTERN" value="jtm.tasks.fundamentals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jtm.activity03" />
-      <option name="MAIN_CLASS_NAME" value="jtm.activity03.RandomPersonTest1" />
+      <option name="PACKAGE_NAME" value="jtm.tasks.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="jtm.tasks.fundamentals.MaxMultipleTest1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZodiacTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneNumberTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jtm.extra01.*" />
+          <option name="PATTERN" value="jtm.tasks.fundamentals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jtm.extra01" />
-      <option name="MAIN_CLASS_NAME" value="jtm.extra01.ZodiacTest1" />
+      <option name="PACKAGE_NAME" value="jtm.tasks.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="jtm.tasks.fundamentals.PhoneNumberTest1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TenMinWalkTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JTM_SO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jtm.tasks.fundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jtm.tasks.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="jtm.tasks.fundamentals.TenMinWalkTest1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Array" />
-      <item itemvalue="JUnit.RandomPersonTest1" />
-      <item itemvalue="JUnit.ZodiacTest1" />
-      <item itemvalue="JUnit.ArrayTest1" />
-      <item itemvalue="JUnit.BlackKnightTest1" />
+      <item itemvalue="JUnit.MaxMultipleTest1" />
+      <item itemvalue="JUnit.EvenNumbersTest1" />
+      <item itemvalue="JUnit.PhoneNumberTest1" />
+      <item itemvalue="JUnit.DiceHistogramTest1" />
+      <item itemvalue="JUnit.TenMinWalkTest1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BlackKnightTest1" />
-        <item itemvalue="Application.Array" />
-        <item itemvalue="JUnit.ArrayTest1" />
-        <item itemvalue="JUnit.RandomPersonTest1" />
-        <item itemvalue="JUnit.ZodiacTest1" />
+        <item itemvalue="JUnit.EvenNumbersTest1" />
+        <item itemvalue="JUnit.TenMinWalkTest1" />
+        <item itemvalue="JUnit.DiceHistogramTest1" />
+        <item itemvalue="JUnit.PhoneNumberTest1" />
+        <item itemvalue="JUnit.MaxMultipleTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -172,23 +172,31 @@
       <option name="project" value="LOCAL" />
       <updated>1579284144182</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Black Knight task (activity 03) - TO BE CONTINUED">
+      <created>1579289223973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579289223973</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="extra01 done" />
     <MESSAGE value="extra01 (part II) done" />
-    <option name="LAST_COMMIT_MESSAGE" value="extra01 (part II) done" />
+    <MESSAGE value="Black Knight task (activity 03) - TO BE CONTINUED" />
+    <option name="LAST_COMMIT_MESSAGE" value="Black Knight task (activity 03) - TO BE CONTINUED" />
   </component>
   <component name="WindowStateProjectService">
     <state x="258" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579285727087">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state x="258" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.876@0.0.1600.876" timestamp="1579285727087" />
-    <state x="100" y="100" width="1400" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1579283748918">
+    <state x="100" y="100" width="1400" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1579349383306">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="100" y="100" width="1400" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.876@0.0.1600.876" timestamp="1579283748918" />
+    <state x="100" y="100" width="1400" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.876@0.0.1600.876" timestamp="1579349383306" />
     <state x="583" y="147" width="426" height="584" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1579284827587">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
@@ -197,50 +205,50 @@
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state x="1057" y="215" width="376" height="592" key="#com.intellij.ide.util.MemberChooser/0.0.1600.876@0.0.1600.876" timestamp="1579284442035" />
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1579284143997">
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1579289223866">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1579284143997" />
-    <state width="1554" height="221" key="GridCell.Tab.0.bottom" timestamp="1579288814602">
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1579289223866" />
+    <state width="1554" height="221" key="GridCell.Tab.0.bottom" timestamp="1579350832674">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="221" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1579288814602" />
-    <state width="1554" height="221" key="GridCell.Tab.0.center" timestamp="1579288814602">
+    <state width="1554" height="221" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1579350832674" />
+    <state width="1554" height="221" key="GridCell.Tab.0.center" timestamp="1579350832674">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="221" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1579288814602" />
-    <state width="1554" height="221" key="GridCell.Tab.0.left" timestamp="1579288814602">
+    <state width="1554" height="221" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1579350832674" />
+    <state width="1554" height="221" key="GridCell.Tab.0.left" timestamp="1579350832673">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="221" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1579288814602" />
-    <state width="1554" height="221" key="GridCell.Tab.0.right" timestamp="1579288814602">
+    <state width="1554" height="221" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1579350832673" />
+    <state width="1554" height="221" key="GridCell.Tab.0.right" timestamp="1579350832674">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="221" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1579288814602" />
-    <state width="1554" height="274" key="GridCell.Tab.1.bottom" timestamp="1579287932380">
+    <state width="1554" height="221" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1579350832674" />
+    <state width="1554" height="274" key="GridCell.Tab.1.bottom" timestamp="1579289248653">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="274" key="GridCell.Tab.1.bottom/0.0.1600.876@0.0.1600.876" timestamp="1579287932380" />
-    <state width="1554" height="274" key="GridCell.Tab.1.center" timestamp="1579287932380">
+    <state width="1554" height="274" key="GridCell.Tab.1.bottom/0.0.1600.876@0.0.1600.876" timestamp="1579289248653" />
+    <state width="1554" height="274" key="GridCell.Tab.1.center" timestamp="1579289248652">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="274" key="GridCell.Tab.1.center/0.0.1600.876@0.0.1600.876" timestamp="1579287932380" />
-    <state width="1554" height="274" key="GridCell.Tab.1.left" timestamp="1579287932380">
+    <state width="1554" height="274" key="GridCell.Tab.1.center/0.0.1600.876@0.0.1600.876" timestamp="1579289248652" />
+    <state width="1554" height="274" key="GridCell.Tab.1.left" timestamp="1579289248652">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="274" key="GridCell.Tab.1.left/0.0.1600.876@0.0.1600.876" timestamp="1579287932380" />
-    <state width="1554" height="274" key="GridCell.Tab.1.right" timestamp="1579287932380">
+    <state width="1554" height="274" key="GridCell.Tab.1.left/0.0.1600.876@0.0.1600.876" timestamp="1579289248652" />
+    <state width="1554" height="274" key="GridCell.Tab.1.right" timestamp="1579289248653">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="274" key="GridCell.Tab.1.right/0.0.1600.876@0.0.1600.876" timestamp="1579287932380" />
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1579284150055">
+    <state width="1554" height="274" key="GridCell.Tab.1.right/0.0.1600.876@0.0.1600.876" timestamp="1579289248653" />
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1579289226354">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1579284150055" />
-    <state x="556" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1579277707539">
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1579289226354" />
+    <state x="556" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1579338543072">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="556" y="285" key="com.intellij.ide.util.TipDialog/0.0.1600.876@0.0.1600.876" timestamp="1579277707539" />
+    <state x="556" y="285" key="com.intellij.ide.util.TipDialog/0.0.1600.876@0.0.1600.876" timestamp="1579338543072" />
     <state x="445" y="36" width="710" height="807" key="find.popup" timestamp="1579287901459">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
