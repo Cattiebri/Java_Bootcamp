@@ -20,14 +20,40 @@ public class Road {
 	 * Create constructor without parameters, which sets empty
 	 * values or 0 to all object properties
 	 */
-
+public Road(){
+	from = "";
+	to = "";
+	distance = 0;
+}
 
 
 	/*- TODO #3
 	 * Generate getters and Setters for distance, from and to fields
 	 */
 
+	public String getFrom() {
+		return from;
+	}
 
+	public void setFrom(String from) {
+		this.from = from;
+	}
+
+	public String getTo() {
+		return to;
+	}
+
+	public void setTo(String to) {
+		this.to = to;
+	}
+
+	public int getDistance() {
+		return distance;
+	}
+
+	public void setDistance(int distance) {
+		this.distance = distance;
+	}
 	/*- TODO #4
 	 * Generate toString() method and update it to return string in a form:
 	 * "From - To, 00km",
@@ -37,5 +63,11 @@ public class Road {
 	 * See more at: https://en.wikipedia.org/wiki/Dash
 	 */
 
-
+	@Override
+	public String toString() {
+		return from + " — " +
+				to + ", " +
+				distance +
+				"km";
+	}
 }
