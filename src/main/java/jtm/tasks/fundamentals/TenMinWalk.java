@@ -17,6 +17,10 @@ public class TenMinWalk {
         It will never give you an empty array (that's not a walk, that's standing still!).
      */
     public static boolean isValid(char[] walk) {
+
+        if(walk.length != 10){
+            return false;
+        }
         int x = 0;
         int y = 0;
 
@@ -32,7 +36,7 @@ public class TenMinWalk {
             }
         }
 
-        if ((x == 0) && (y == 0) && (walk.length == 10)) {
+        if ((x == 0) && (y == 0)) {
             return true;
         } else {
             return false;

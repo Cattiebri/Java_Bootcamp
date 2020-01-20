@@ -11,10 +11,16 @@ public class Road {
 	 * values of the newly created object
 	 */
 
+	public Road(String from, String to, int distance) {
+		this.from = from;
+		this.to = to;
+		this.distance = distance;
+	}
 	/*- TODO #2
 	 * Create constructor without parameters, which sets empty
 	 * values or 0 to all object properties
 	 */
+
 
 
 	/*- TODO #3

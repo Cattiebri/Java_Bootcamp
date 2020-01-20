@@ -15,9 +15,37 @@ public class PhoneNumber {
     Don't forget the space after the closing parentheses!
      */
 
-    public static String createPhoneNumber(int[] numbers) {
-        String answer = "(" + numbers[0] + numbers[1] + numbers[2] + ") " +
-                numbers[3] + numbers[4] + numbers[5] + "-" + numbers[6] + numbers[7] + numbers[8] + numbers[9];
-        return answer;
+//    public static String createPhoneNumber(int[] numbers) {
+//        String answer = "(" + numbers[0] + numbers[1] + numbers[2] + ") " +
+//                numbers[3] + numbers[4] + numbers[5] + "-" + numbers[6] + numbers[7] + numbers[8] + numbers[9];
+//        return answer;
+//    }
+//    public static String createPhoneNumber(int[] numbers) {
+//        String answer = "";
+//        for(int i = 0; i<numbers.length; i++){
+//            if (i==0){
+//                answer = answer + "(";
+//            } else if (i==3){
+//                    answer = answer + ") ";
+//            } else if (i==6){
+//                answer = answer + "-";
+//            }
+//            answer = answer + numbers[i];
+//        }
+//
+//        return answer;
+//    }
+public static String createPhoneNumber(int[] numbers) {
+    StringBuilder answer = new StringBuilder("(");
+    for(int i = 0; i<numbers.length; i++){
+        if (i==3){
+            answer.append(") ");
+        } else if (i==6){
+            answer.append("-");
+        }
+        answer.append(numbers[i]);
     }
+
+    return answer.toString();
+}
 }
