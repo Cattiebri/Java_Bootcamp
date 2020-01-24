@@ -15,6 +15,8 @@ public class Transport {
      * values of the newly created object
      * And make fuel tank full.
      */
+    public Transport(){}
+
 
     public Transport(String id, float consumption, int tankSize) {
         this.id = id;
@@ -104,5 +106,4 @@ public class Transport {
                     fuelSpentOnRoad, getFuelInTank());
         }
     }
-
 }

@@ -20,7 +20,8 @@ public class Road {
 	 * Create constructor without parameters, which sets empty
 	 * values or 0 to all object properties
 	 */
-public Road(){
+
+	public Road(){
 	from = "";
 	to = "";
 	distance = 0;

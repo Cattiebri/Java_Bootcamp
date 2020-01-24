@@ -22,6 +22,9 @@ public class EqualSidesArray {
      */
 
     public static int findEvenIndex(int[] arr) {
+
+
+
         return -1;
     }
 
