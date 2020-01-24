@@ -38,21 +38,26 @@ public class SupermarketQueue {
             }
             return totalMinutes;
         } else {
-            int answer = 0;
+           int indexOfSmallestTime = 0;
             int[] minutesInTills = new int[n];
-            System.out.println(Arrays.toString(minutesInTills));
-            for (int minutes : customers) {
-                int smallestTime = 0;
-//                for (int i = 0; i < minutesInTills.length; i++){
-//                    if(minutesInTills[i]<=minutesInTills[i+1] && (i+1) < minutesInTills.length){
-//                        minutesInTills[i] += customers[i];
-//                        System.out.println(Arrays.toString(minutesInTills));
-//                    }
-//                }
-
+            int minValue = 0;
+            for (int i = 0; i < customers.length; i++) {
+                minValue = minutesInTills[0];
+                for (int j = 0; j < minutesInTills.length; j++) {
+                    if (minutesInTills[j] <= minValue) {
+                        minValue = minutesInTills[j];
+                        indexOfSmallestTime = j;
+                    }
+                }
+                minutesInTills[indexOfSmallestTime] = minutesInTills[indexOfSmallestTime] + customers[i];
             }
-            return answer;
+            int maxValue = minutesInTills[0];
+            for (int i = 0; i < minutesInTills.length; i++) {
+                if (minutesInTills[i] > maxValue) {
+                    maxValue = minutesInTills[i];
+                }
+            }
+            return maxValue;
         }
     }
-
 }
