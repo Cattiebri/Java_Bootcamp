@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="72df9034-5aec-4dbd-8a28-40774da62404" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/tasks/fundamentals/EqualSidesArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/tasks/fundamentals/EqualSidesArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/tasks/fundamentals/ArrayLeaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/tasks/fundamentals/ArrayLeaders.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.EqualSidesArrayTest1">
+  <component name="RunManager" selected="JUnit.ArrayLeadersTest1">
+    <configuration name="ArrayLeadersTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JTM_SO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jtm.tasks.fundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jtm.tasks.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="jtm.tasks.fundamentals.ArrayLeadersTest1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EncapsulationTests1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
@@ -100,35 +115,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZodiacTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JTM_SO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jtm.extra01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jtm.extra01" />
-      <option name="MAIN_CLASS_NAME" value="jtm.extra01.ZodiacTest1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.TrafficManagementTest1" />
-      <item itemvalue="JUnit.ZodiacTest1" />
       <item itemvalue="JUnit.SupermarketQueueTest1" />
       <item itemvalue="JUnit.EncapsulationTests1" />
       <item itemvalue="JUnit.EqualSidesArrayTest1" />
+      <item itemvalue="JUnit.ArrayLeadersTest1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayLeadersTest1" />
         <item itemvalue="JUnit.EqualSidesArrayTest1" />
         <item itemvalue="JUnit.EncapsulationTests1" />
         <item itemvalue="JUnit.TrafficManagementTest1" />
         <item itemvalue="JUnit.SupermarketQueueTest1" />
-        <item itemvalue="JUnit.ZodiacTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579893312599</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Equal Sides Array ask - DONE!">
+      <created>1579942756381</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579942756381</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -254,7 +261,8 @@
     <MESSAGE value="SuperMarket queue in progress" />
     <MESSAGE value="SuperMarket queue - DONE!" />
     <MESSAGE value="Activity05 - DONE!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Activity05 - DONE!" />
+    <MESSAGE value="Equal Sides Array ask - DONE!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Equal Sides Array ask - DONE!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="258" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579285727087">
@@ -273,26 +281,26 @@
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state x="1054" y="215" width="546" height="592" key="#com.intellij.ide.util.MemberChooser/0.0.1600.876@0.0.1600.876" timestamp="1579890194387" />
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1579893312502">
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1579942756146">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1579893312502" />
-    <state width="1554" height="234" key="GridCell.Tab.0.bottom" timestamp="1579942650953">
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1579942756146" />
+    <state width="1554" height="234" key="GridCell.Tab.0.bottom" timestamp="1579943799721">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="234" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1579942650953" />
-    <state width="1554" height="234" key="GridCell.Tab.0.center" timestamp="1579942650952">
+    <state width="1554" height="234" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1579943799721" />
+    <state width="1554" height="234" key="GridCell.Tab.0.center" timestamp="1579943799721">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="234" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1579942650952" />
-    <state width="1554" height="234" key="GridCell.Tab.0.left" timestamp="1579942650952">
+    <state width="1554" height="234" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1579943799721" />
+    <state width="1554" height="234" key="GridCell.Tab.0.left" timestamp="1579943799720">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="234" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1579942650952" />
-    <state width="1554" height="234" key="GridCell.Tab.0.right" timestamp="1579942650952">
+    <state width="1554" height="234" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1579943799720" />
+    <state width="1554" height="234" key="GridCell.Tab.0.right" timestamp="1579943799721">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="234" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1579942650952" />
+    <state width="1554" height="234" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1579943799721" />
     <state width="1554" height="274" key="GridCell.Tab.1.bottom" timestamp="1579289248653">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
@@ -309,10 +317,10 @@
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state width="1554" height="274" key="GridCell.Tab.1.right/0.0.1600.876@0.0.1600.876" timestamp="1579289248653" />
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1579893314131">
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1579942758249">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1579893314131" />
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1579942758249" />
     <state x="556" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1579940135900">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
