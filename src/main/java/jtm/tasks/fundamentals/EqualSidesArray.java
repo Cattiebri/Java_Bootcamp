@@ -1,5 +1,7 @@
 package jtm.tasks.fundamentals;
 
+import java.util.Arrays;
+
 public class EqualSidesArray {
 
     /* TODO
@@ -22,10 +24,33 @@ public class EqualSidesArray {
      */
 
     public static int findEvenIndex(int[] arr) {
+        int answer = 0;
+        int size = arr.length;
+        for (int i = 0; i < size; i++){
+            int[] before = new int[i];
+            for(int j = 0; j <i; j++){
+                before[j] = arr[j];
+            }
 
-
-
+            int afterSize = size-i-1;
+            int[] after = new int[afterSize];
+            for(int k = 0; k<afterSize; k++){
+                after[k] = arr[i+1+k];
+            }
+            if(sum(before)==sum(after)){
+                answer = i;
+                return answer;
+            }
+        }
         return -1;
+    }
+
+    public static int sum(int[] array){
+        int answer=0;
+        for (int number : array){
+            answer+=number;
+        }
+        return answer;
     }
 
 }
