@@ -1,5 +1,6 @@
 package jtm.tasks.fundamentals;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class JosephusSurvivor {
@@ -27,11 +28,54 @@ public class JosephusSurvivor {
      */
 
     public static int josephusSurvivor(final int n, final int k) {
+        ArrayList<Integer> sequence = new ArrayList<Integer>();
+        for (int i = 1; i <= n; i++) {
+            sequence.add(i);
+        }
+        System.out.println(sequence);
 
-        return -1;
+        while (!(sequence.size() == 1)) {
+            process(sequence, k);
+        }
+        return sequence.get(0);
+
     }
 
+    public static void process(ArrayList<Integer> list, int k) {
+        int size = list.size();
+        int startIndex = 0;
+        int newIndex = 0;
+        System.out.println("Full list: " + list);
+        while (!(size == 1)) {
+            while (size >= startIndex + k) {
+
+                newIndex = startIndex + k - 1;
+                startIndex = newIndex;
+                list.remove(newIndex);
+                System.out.println("Removed no while: " + list);
+                if (list.size() == 1) {
+                    break;
+                }
+                size--;
+
+            }
+            if (!(size > startIndex + k)) {
+                newIndex = k - (size - startIndex) - 1;
+                while (newIndex >= size) {
+                    newIndex = newIndex - size;
+                }
+                startIndex = newIndex;
+                list.remove(newIndex);
+            }
+            System.out.println("Removed no if: " + list);
+            size--;
+
+        }
+    }
+
+
     public static void main(String args[]) {
+
         josephusSurvivor(7, 3);
     }
 }
