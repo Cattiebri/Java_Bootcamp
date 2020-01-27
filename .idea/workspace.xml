@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72df9034-5aec-4dbd-8a28-40774da62404" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/activity06/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/activity06/Martian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/tasks/fundamentals/JosephusSurvivor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/tasks/fundamentals/JosephusSurvivor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/JTM.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/JTM.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity06/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/activity06/Alien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity06/Humanoid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/activity06/Humanoid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/extra02/ArrayListMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/extra02/ArrayListMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity06/Alien.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jtm/activity06/Alien.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity06/Humanoid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jtm/activity06/Humanoid.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.JosephusSurvivorTest1">
+  <component name="RunManager" selected="JUnit.ArrayListMethodsTest1">
     <configuration name="ArrayLeadersTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
@@ -55,16 +62,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncapsulationTests1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayListMethodsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jtm.activity05.*" />
+          <option name="PATTERN" value="jtm.extra02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jtm.activity05" />
-      <option name="MAIN_CLASS_NAME" value="jtm.activity05.EncapsulationTests1" />
+      <option name="PACKAGE_NAME" value="jtm.extra02" />
+      <option name="MAIN_CLASS_NAME" value="jtm.extra02.ArrayListMethodsTest1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,6 +92,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InterfaceTests1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JTM_SO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jtm.activity06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jtm.activity06" />
+      <option name="MAIN_CLASS_NAME" value="jtm.activity06.InterfaceTests1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JosephusSurvivorTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
@@ -100,35 +122,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrafficManagementTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JTM_SO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jtm.activity04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jtm.activity04" />
-      <option name="MAIN_CLASS_NAME" value="jtm.activity04.TrafficManagementTest1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.TrafficManagementTest1" />
-      <item itemvalue="JUnit.EncapsulationTests1" />
       <item itemvalue="JUnit.EqualSidesArrayTest1" />
       <item itemvalue="JUnit.ArrayLeadersTest1" />
       <item itemvalue="JUnit.JosephusSurvivorTest1" />
+      <item itemvalue="JUnit.InterfaceTests1" />
+      <item itemvalue="JUnit.ArrayListMethodsTest1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayListMethodsTest1" />
+        <item itemvalue="JUnit.InterfaceTests1" />
         <item itemvalue="JUnit.JosephusSurvivorTest1" />
         <item itemvalue="JUnit.ArrayLeadersTest1" />
         <item itemvalue="JUnit.EqualSidesArrayTest1" />
-        <item itemvalue="JUnit.EncapsulationTests1" />
-        <item itemvalue="JUnit.TrafficManagementTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579943833496</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Josephus Survivor - DONE!">
+      <created>1579954623612</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579954623612</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -270,45 +284,46 @@
     <MESSAGE value="Activity05 - DONE!" />
     <MESSAGE value="Equal Sides Array ask - DONE!" />
     <MESSAGE value="Array Leaders - DONE!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array Leaders - DONE!" />
+    <MESSAGE value="Josephus Survivor - DONE!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Josephus Survivor - DONE!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="258" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579285727087">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state x="258" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.876@0.0.1600.876" timestamp="1579285727087" />
-    <state x="100" y="100" width="1400" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1579941321193">
+    <state x="100" y="100" width="1400" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580149799042">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="100" y="100" width="1400" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.876@0.0.1600.876" timestamp="1579941321193" />
+    <state x="100" y="100" width="1400" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.876@0.0.1600.876" timestamp="1580149799042" />
     <state x="583" y="147" width="426" height="584" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1579284827587">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state x="583" y="147" width="426" height="584" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.876@0.0.1600.876" timestamp="1579284827587" />
-    <state x="1054" y="215" width="546" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1579890194387">
+    <state x="1054" y="215" width="546" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1580147027891">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="1054" y="215" width="546" height="592" key="#com.intellij.ide.util.MemberChooser/0.0.1600.876@0.0.1600.876" timestamp="1579890194387" />
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1579943833386">
+    <state x="1054" y="215" width="546" height="592" key="#com.intellij.ide.util.MemberChooser/0.0.1600.876@0.0.1600.876" timestamp="1580147027891" />
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1579954623486">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1579943833386" />
-    <state width="1554" height="234" key="GridCell.Tab.0.bottom" timestamp="1579954592710">
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1579954623486" />
+    <state width="1554" height="232" key="GridCell.Tab.0.bottom" timestamp="1580152670969">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="234" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1579954592710" />
-    <state width="1554" height="234" key="GridCell.Tab.0.center" timestamp="1579954592710">
+    <state width="1554" height="232" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1580152670969" />
+    <state width="1554" height="232" key="GridCell.Tab.0.center" timestamp="1580152670968">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="234" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1579954592710" />
-    <state width="1554" height="234" key="GridCell.Tab.0.left" timestamp="1579954592710">
+    <state width="1554" height="232" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1580152670968" />
+    <state width="1554" height="232" key="GridCell.Tab.0.left" timestamp="1580152670968">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="234" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1579954592710" />
-    <state width="1554" height="234" key="GridCell.Tab.0.right" timestamp="1579954592710">
+    <state width="1554" height="232" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1580152670968" />
+    <state width="1554" height="232" key="GridCell.Tab.0.right" timestamp="1580152670969">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="234" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1579954592710" />
+    <state width="1554" height="232" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1580152670969" />
     <state width="1554" height="274" key="GridCell.Tab.1.bottom" timestamp="1579289248653">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
@@ -325,14 +340,14 @@
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state width="1554" height="274" key="GridCell.Tab.1.right/0.0.1600.876@0.0.1600.876" timestamp="1579289248653" />
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1579943834734">
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1579954624951">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1579943834734" />
-    <state x="556" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1579940135900">
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1579954624951" />
+    <state x="556" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1580144242179">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="556" y="285" key="com.intellij.ide.util.TipDialog/0.0.1600.876@0.0.1600.876" timestamp="1579940135900" />
+    <state x="556" y="285" key="com.intellij.ide.util.TipDialog/0.0.1600.876@0.0.1600.876" timestamp="1580144242179" />
     <state x="453" y="57" width="685" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579952896371">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
