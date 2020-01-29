@@ -20,7 +20,7 @@ public class Martian implements Humanoid, Alien, Cloneable {
 
     @Override
     public void eatHuman(Humanoid humanoid) {
-        if (humanoid.isAlive() == "Alive") {
+        if (humanoid.isAlive().equals("Alive")) {
             this.weight += humanoid.getWeight();
             humanoid.killHimself();
         }
