@@ -53,7 +53,6 @@ public class PracticalNumbers {
         }
         int sum = myList.get(0);
         boolean status = false;
-//        for (int i = 0; i < myList.size(); i++) {
             for (int j = 1; j < myList.size() - 1; j++) {
                 if (sum < myList.get(j) - 1) {
                     status = false;
@@ -63,13 +62,6 @@ public class PracticalNumbers {
                     sum += myList.get(j);
                 }
             }
-//            if (status && sum == myList.get(i)) {
-//                status = true;
-//                return status;
-//            } else {
-//                return false;
-//            }
-//        }
     return status;
     }
 }
