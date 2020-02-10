@@ -4,6 +4,7 @@ import jtm.activity03.Array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class PracticalNumbers {
     // TODO Read article https://en.wikipedia.org/wiki/Practical_number
@@ -15,7 +16,15 @@ public class PracticalNumbers {
         int[] numbers = fillArray(from, to);
         System.out.println(Arrays.toString(numbers));
         for (int i = 0; i < numbers.length; i++) {
-            if (findDivisors(numbers[i])) {
+            List<Integer> divisors = findDivisors(numbers[i]);
+            boolean isPractical = true;
+            for (int k = 1; k < numbers[i]; k++) {
+                boolean sumPossible = isSumPossible(k, divisors);
+                if (!sumPossible) {
+                    isPractical = false;
+                }
+            }
+            if (isPractical) {
                 if (answer.equals("[")) {
                     answer = answer + numbers[i];
                 } else {
@@ -27,6 +36,11 @@ public class PracticalNumbers {
         return answer;
     }
 
+    private boolean isSumPossible(int sum, List<Integer> numbers) {
+        //return true if sum can be expressed from numbers
+        if()
+        return false;
+    }
 
     private int[] fillArray(int from, int to) {
         int size = to - from;
@@ -39,19 +53,16 @@ public class PracticalNumbers {
         return numbers;
     }
 
-    private boolean findDivisors(int number) {
+    private List<Integer> findDivisors(int number) {
         ArrayList<Integer> divisorList = new ArrayList<>();
 
         int[] test = fillArray(1, number);
         for (int i = 0; i < test.length; i++) {
-            if (number % (i+1) == 0) {
+            if (number % (i + 1) == 0) {
                 divisorList.add(test[i]);
             }
-            else {
-                break;
-            }
         }
-        boolean status = false;
+       /* boolean status = false;
         int sum = divisorList.get(0);
         for (int i = 1; i < divisorList.size() - 1; i++) {
             if (sum < divisorList.get(i) - 1) {
@@ -62,8 +73,8 @@ public class PracticalNumbers {
                 sum += divisorList.get(i);
             }
 
-        }
-        return status;
+        } */
+        return divisorList;
 //        check(divisorList,number);
 //    }
 

@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72df9034-5aec-4dbd-8a28-40774da62404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/activity08/SimpleCalcException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/JTM.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/JTM.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity07/AnimalTests1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity07/TODO.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity08/SimpleCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/activity08/SimpleCalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity08/TODO.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity10/StreamEditor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity10/StreamEditorTest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity10/TODO.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity11/Activity11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity11/Activity11.uxf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity11/ArrayFiller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity11/ArrayFillerManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity11/ArrayFillerManagerTest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity11/TODO.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity13/DatabaseTest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity13/TODO.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity13/Teacher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity13/TeacherManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity13/database.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jtm/extra03/PracticalNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/extra03/PracticalNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity07/AnimalTests1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity09/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jtm/activity09/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity09/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jtm/activity09/Orders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity10/StreamEditor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity10/StreamEditorTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity11/ArrayFiller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity11/ArrayFillerManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity11/ArrayFillerManagerTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity13/DatabaseTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity13/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity13/TeacherManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity08/SimpleCalc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jtm/activity08/SimpleCalc.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.SimpleCalcTests1">
+  <component name="RunManager" selected="JUnit.PracticalNumbersTest1">
     <configuration name="InterfaceTests1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
@@ -155,8 +125,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SimpleCalcTests1" />
         <item itemvalue="JUnit.PracticalNumbersTest1" />
+        <item itemvalue="JUnit.SimpleCalcTests1" />
         <item itemvalue="JUnit.OrdersTests1" />
         <item itemvalue="JUnit.InterfaceTests1" />
         <item itemvalue="JUnit.LetsRideTest1" />
@@ -312,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580489836248</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Try-Catch task - DONE!">
+      <created>1581360197755</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1581360197755</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -333,17 +310,18 @@
     <MESSAGE value="Alien + Humanoid - DONE! &#10;Extra02 part I -DONE!" />
     <MESSAGE value="Extra02 part II -DONE!&#10;Extra03 - in progress" />
     <MESSAGE value="Extra03 still in progress (3101)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extra03 still in progress (3101)" />
+    <MESSAGE value="Try-Catch task - DONE!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try-Catch task - DONE!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="258" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579285727087">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state x="258" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.876@0.0.1600.876" timestamp="1579285727087" />
-    <state x="100" y="100" width="1400" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580497184352">
+    <state x="100" y="100" width="1400" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581360346952">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="100" y="100" width="1400" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.876@0.0.1600.876" timestamp="1580497184352" />
+    <state x="100" y="100" width="1400" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.876@0.0.1600.876" timestamp="1581360346952" />
     <state x="583" y="147" width="426" height="584" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1579284827587">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
@@ -352,26 +330,26 @@
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state x="355" y="109" width="546" height="592" key="#com.intellij.ide.util.MemberChooser/0.0.1600.876@0.0.1600.876" timestamp="1581358000109" />
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1580497807717">
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1581360197583">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1580497807717" />
-    <state width="1554" height="227" key="GridCell.Tab.0.bottom" timestamp="1581360160841">
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1581360197583" />
+    <state width="950" height="238" key="GridCell.Tab.0.bottom" timestamp="1581362517296">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="227" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1581360160841" />
-    <state width="1554" height="227" key="GridCell.Tab.0.center" timestamp="1581360160841">
+    <state width="950" height="238" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1581362517296" />
+    <state width="950" height="238" key="GridCell.Tab.0.center" timestamp="1581362517296">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="227" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1581360160841" />
-    <state width="1554" height="227" key="GridCell.Tab.0.left" timestamp="1581360160840">
+    <state width="950" height="238" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1581362517296" />
+    <state width="950" height="238" key="GridCell.Tab.0.left" timestamp="1581362517296">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="227" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1581360160840" />
-    <state width="1554" height="227" key="GridCell.Tab.0.right" timestamp="1581360160841">
+    <state width="950" height="238" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1581362517296" />
+    <state width="950" height="238" key="GridCell.Tab.0.right" timestamp="1581362517296">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="227" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1581360160841" />
+    <state width="950" height="238" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1581362517296" />
     <state width="1554" height="274" key="GridCell.Tab.1.bottom" timestamp="1579289248653">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
@@ -388,10 +366,10 @@
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state width="1554" height="274" key="GridCell.Tab.1.right/0.0.1600.876@0.0.1600.876" timestamp="1579289248653" />
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1580497809855">
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581360201307">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1580497809855" />
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1581360201307" />
     <state x="556" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1581357661760">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
