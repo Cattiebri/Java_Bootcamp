@@ -2,11 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72df9034-5aec-4dbd-8a28-40774da62404" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/activity08/SimpleCalcException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/JTM.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/JTM.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity09/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/activity09/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity09/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/activity09/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity07/AnimalTests1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity07/TODO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity08/SimpleCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/activity08/SimpleCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity08/TODO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity10/StreamEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity10/StreamEditorTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity10/TODO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity11/Activity11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity11/Activity11.uxf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity11/ArrayFiller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity11/ArrayFillerManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity11/ArrayFillerManagerTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity11/TODO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity13/DatabaseTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity13/TODO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity13/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity13/TeacherManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity13/database.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jtm/extra03/PracticalNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/extra03/PracticalNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity07/AnimalTests1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity09/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jtm/activity09/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity09/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jtm/activity09/Orders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity10/StreamEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity10/StreamEditorTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity11/ArrayFiller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity11/ArrayFillerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity11/ArrayFillerManagerTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity13/DatabaseTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity13/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity13/TeacherManager.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,22 +70,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.OrdersTests1">
-    <configuration name="ArrayListMethodsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JTM_SO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jtm.extra02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jtm.extra02" />
-      <option name="MAIN_CLASS_NAME" value="jtm.extra02.ArrayListMethodsTest1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SimpleCalcTests1">
     <configuration name="InterfaceTests1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
@@ -118,20 +131,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleCalcTests1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JTM_SO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jtm.activity08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jtm.activity08" />
+      <option name="MAIN_CLASS_NAME" value="jtm.activity08.SimpleCalcTests1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.InterfaceTests1" />
-      <item itemvalue="JUnit.ArrayListMethodsTest1" />
       <item itemvalue="JUnit.LetsRideTest1" />
       <item itemvalue="JUnit.PracticalNumbersTest1" />
       <item itemvalue="JUnit.OrdersTests1" />
+      <item itemvalue="JUnit.SimpleCalcTests1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrdersTests1" />
+        <item itemvalue="JUnit.SimpleCalcTests1" />
         <item itemvalue="JUnit.PracticalNumbersTest1" />
+        <item itemvalue="JUnit.OrdersTests1" />
         <item itemvalue="JUnit.InterfaceTests1" />
         <item itemvalue="JUnit.LetsRideTest1" />
-        <item itemvalue="JUnit.ArrayListMethodsTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -320,30 +348,30 @@
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state x="583" y="147" width="426" height="584" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.876@0.0.1600.876" timestamp="1579284827587" />
-    <state x="1054" y="215" width="546" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1580495247665">
+    <state x="355" y="109" width="546" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1581358000109">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="1054" y="215" width="546" height="592" key="#com.intellij.ide.util.MemberChooser/0.0.1600.876@0.0.1600.876" timestamp="1580495247665" />
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1580489836060">
+    <state x="355" y="109" width="546" height="592" key="#com.intellij.ide.util.MemberChooser/0.0.1600.876@0.0.1600.876" timestamp="1581358000109" />
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1580497807717">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1580489836059" />
-    <state width="1554" height="230" key="GridCell.Tab.0.bottom" timestamp="1580497281178">
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1580497807717" />
+    <state width="1554" height="227" key="GridCell.Tab.0.bottom" timestamp="1581360160841">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="230" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1580497281178" />
-    <state width="1554" height="230" key="GridCell.Tab.0.center" timestamp="1580497281178">
+    <state width="1554" height="227" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1581360160841" />
+    <state width="1554" height="227" key="GridCell.Tab.0.center" timestamp="1581360160841">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="230" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1580497281178" />
-    <state width="1554" height="230" key="GridCell.Tab.0.left" timestamp="1580497281177">
+    <state width="1554" height="227" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1581360160841" />
+    <state width="1554" height="227" key="GridCell.Tab.0.left" timestamp="1581360160840">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="230" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1580497281177" />
-    <state width="1554" height="230" key="GridCell.Tab.0.right" timestamp="1580497281178">
+    <state width="1554" height="227" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1581360160840" />
+    <state width="1554" height="227" key="GridCell.Tab.0.right" timestamp="1581360160841">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="230" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1580497281178" />
+    <state width="1554" height="227" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1581360160841" />
     <state width="1554" height="274" key="GridCell.Tab.1.bottom" timestamp="1579289248653">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
@@ -360,14 +388,14 @@
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state width="1554" height="274" key="GridCell.Tab.1.right/0.0.1600.876@0.0.1600.876" timestamp="1579289248653" />
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1580489841557">
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1580497809855">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1580489841557" />
-    <state x="556" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1580491419103">
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1580497809855" />
+    <state x="556" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1581357661760">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="556" y="285" key="com.intellij.ide.util.TipDialog/0.0.1600.876@0.0.1600.876" timestamp="1580491419103" />
+    <state x="556" y="285" key="com.intellij.ide.util.TipDialog/0.0.1600.876@0.0.1600.876" timestamp="1581357661760" />
     <state x="453" y="57" width="685" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579952896371">
       <screen x="0" y="0" width="1600" height="876" />
     </state>

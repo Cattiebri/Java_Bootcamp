@@ -1,81 +1,99 @@
-package jtm.activity08;
 
-// TODO implement basic mathematical operations with int numbers in range
-// of [-10..+10] (including)
-// Note that:
-// 1. input range is checked using assertions (so if they are disabled, inputs can be any int)
-// 2. outputs are always checked and exception is thrown if it is outside proper range
+package jtm.activity08;
 
 public class SimpleCalc {
 
-	// TODO specify that method can throw SimpleCalcException
-	public static int add(int a, int b)
-			{
-		// TODO implement adding operation
-		return 0;
-	}
+    // TODO
+	/*
+		Implement add, subtract, multiply, divide multiply methods
+		Each method should first validate input that a and b values are in range [-10,10]
+		Then perform the operation and validate result
+		If inputs and outputs are in range, return result
+		If validateInput or validateOutput method throws exception - catch it, print stacktrace and return null
+	 */
 
-	// TODO specify that method can throw SimpleCalcException
-	public static int subtract(int a, int b)
-			{
-		// TODO implement subtract operation
-		return 0;
-	}
 
-	// TODO specify that method can throw SimpleCalcException
-	public static int multiply(int a, int b)
-			{
-		// TODO implement multiply operation
-		return 0;
-	}
+    public static Integer add(int a, int b) throws SimpleCalcException {
+        // TODO implement adding operation
+        int result = a + b;
+        try {
+            validateInput(a, b);
+            validateOutput(result);
+            return result;
+        } catch (SimpleCalcException e) {
+            System.out.println(e.getMessage());
+            return null;
+        }
+    }
 
-	// TODO specify that method can throw SimpleCalcException
-	public static int divide(int a, int b)
-			{
-		// TODO implement divide operation
-		return 0;
-	}
+    public static Integer subtract(int a, int b) throws SimpleCalcException {
+        // TODO implement subtract operation
+        int result = a - b;
+        try {
+            validateInput(a, b);
+            validateOutput(result);
+            return result;
+        } catch (SimpleCalcException e) {
+            System.out.println(e.getMessage());
+            return null;
+        }
+    }
 
-	// TODO Validate that inputs are in range of -10..+10 using assertions
-	// Use following messages for assertion description if values are not in
-	// range:
-	// "input value a: A is below -10"
-	// "input value a: A is above 10"
-	// "input value b: B is below -10"
-	// "input value b: B is above 10"
-	// "input value a: A is below -10 and b: B is below -10"
-	// "input value a: A is above 10 and b: B is below -10"
-	// "input value a: a is below -10 and b: B is above 10"
-	// "input value a: a is above 10 and b: B is above 10"
-	//
-	// where: A and B are actual values of a and b.
-	//
-	// hint:
-	// note that assert allows only simple boolean expression
-	// (i.e. without &, |, () and similar constructs).
-	// therefore for more complicated checks use following approach:
-	// if (long && complicated || statement)
-	// assert false: "message if statement not fulfilled";
-	//
-	private static void validateInput(int a, int b) {
+    public static Integer multiply(int a, int b) throws SimpleCalcException {
+        // TODO implement multiply operation
+        int result = a * b;
+        try {
+            validateInput(a, b);
+            validateOutput(result);
+            return result;
+        } catch (SimpleCalcException e) {
+            System.out.println(e.getMessage());
+            return null;
+        }
+    }
 
-	}
+    public static Integer divide(int a, int b) throws SimpleCalcException {
+        // TODO implement divide operation
+        int result = a / b;
+        try {
+            validateInput(a, b);
+            validateOutput(result);
+            return result;
+        } catch (SimpleCalcException e) {
+            System.out.println(e.getMessage());
+            return null;
+        }
+    }
 
-	// TODO use this method to check that result of operation is also in
-	// range of -10..+10.
-	// If result is not in range:
-	//     throw SimpleCalcException with message:
-	//     "output value a oper b = result is above 10"
-	//     "output value a oper b = result is below -10"
-	//     where oper is +, -, *, /
-	// Else:
-	//     return result
-	// Hint:
-	// If division by zero is performed, catch original exception and create
-	// new SimpleCalcException with message "division by zero" and add
-	// original division exception as a cause for it.
-	private static int validateOutput(int a, int b, String operation)
-			{
-		return 0;
-	}
+    // TODO
+	/*
+		1. Specify that method can throw SimpleCalcException
+    	2. Check that both input values a and b are in range [-10 .. 10] if either
+    		of values are out of range, throw SimpleCalcException with message
+    		Input value <value> is out of range [-10,10]
+    		where value is the value that's out of range, if a is out of range there's no
+    		need to check value b
+    */
+
+    private static void validateInput(int a, int b) throws SimpleCalcException {
+        if (!(a >= -10 && a <= 10)) {
+            throw new SimpleCalcException("Input value <" + a + "> is out of range [-10,10]");
+        } else if (!(b >= -10 && b <= 10)) {
+            throw new SimpleCalcException("Input value <" + b + "> is out of range [-10,10]");
+        }
+    }
+
+    // TODO
+	/*
+		1. Specify that method can throw SimpleCalcException
+    	2. Check that result is in range [-10 .. 10] if it's out of range,
+    		throw SimpleCalcException with message
+    		Result <result> is out of range [-10,10]
+    		where value is the result is result of executed operation
+    */
+    private static void validateOutput(int result) throws SimpleCalcException {
+        if (!(result >= -10 && result <= 10)) {
+            throw new SimpleCalcException("Result <" + result + "> is out of range [-10,10]");
+        }
+    }
 }
