@@ -38,7 +38,7 @@ public class PracticalNumbers {
 
     private boolean isSumPossible(int sum, List<Integer> numbers) {
         //return true if sum can be expressed from numbers
-        if()
+//        if()
         return false;
     }
 

@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72df9034-5aec-4dbd-8a28-40774da62404" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/activity10/FileCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/activity10/FileCopyTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/activity10/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/activity10/PersonRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/activity10/PersonRepoTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/extra12/SHA256Cracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/extra12/SHA256CrackerTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/extra13/ConferenceTraveller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/extra13/ConferenceTravellerTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/extra14/CoinFlip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/extra14/CoinFlipTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/extra15/MorseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/extra15/MorseCodeTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/extra15/MorseLetters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.json_backup" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/JTM.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/JTM.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jtm/extra03/PracticalNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/extra03/PracticalNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jtm/activity08/SimpleCalc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jtm/activity08/SimpleCalc.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,58 +45,59 @@
     </option>
   </component>
   <component name="ProjectId" id="1WRPfbQchCo92IGmpBNUTbwsWm8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.PracticalNumbersTest1">
-    <configuration name="InterfaceTests1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PersonRepoTest1">
+    <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jtm.activity10.FileCopy" />
       <module name="JTM_SO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jtm.activity06.*" />
+          <option name="PATTERN" value="jtm.activity10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jtm.activity06" />
-      <option name="MAIN_CLASS_NAME" value="jtm.activity06.InterfaceTests1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileCopyTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JTM_SO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jtm.activity10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jtm.activity10" />
+      <option name="MAIN_CLASS_NAME" value="jtm.activity10.FileCopyTest1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetsRideTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonRepoTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jtm.extra02.*" />
+          <option name="PATTERN" value="jtm.activity10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jtm.extra02" />
-      <option name="MAIN_CLASS_NAME" value="jtm.extra02.LetsRideTest1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrdersTests1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JTM_SO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jtm.activity09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jtm.activity09" />
-      <option name="MAIN_CLASS_NAME" value="jtm.activity09.OrdersTests1" />
+      <option name="PACKAGE_NAME" value="jtm.activity10" />
+      <option name="MAIN_CLASS_NAME" value="jtm.activity10.PersonRepoTest1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,19 +134,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.InterfaceTests1" />
-      <item itemvalue="JUnit.LetsRideTest1" />
       <item itemvalue="JUnit.PracticalNumbersTest1" />
-      <item itemvalue="JUnit.OrdersTests1" />
       <item itemvalue="JUnit.SimpleCalcTests1" />
+      <item itemvalue="JUnit.FileCopyTest1" />
+      <item itemvalue="Application.FileCopy" />
+      <item itemvalue="JUnit.PersonRepoTest1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonRepoTest1" />
+        <item itemvalue="JUnit.FileCopyTest1" />
+        <item itemvalue="Application.FileCopy" />
         <item itemvalue="JUnit.PracticalNumbersTest1" />
         <item itemvalue="JUnit.SimpleCalcTests1" />
-        <item itemvalue="JUnit.OrdersTests1" />
-        <item itemvalue="JUnit.InterfaceTests1" />
-        <item itemvalue="JUnit.LetsRideTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -293,6 +310,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="extra01 done" />
     <MESSAGE value="extra01 (part II) done" />
     <MESSAGE value="Black Knight task (activity 03) - TO BE CONTINUED" />
@@ -326,30 +344,30 @@
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state x="583" y="147" width="426" height="584" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.876@0.0.1600.876" timestamp="1579284827587" />
-    <state x="355" y="109" width="546" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1581358000109">
+    <state x="434" y="122" width="546" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1581529225708">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="355" y="109" width="546" height="592" key="#com.intellij.ide.util.MemberChooser/0.0.1600.876@0.0.1600.876" timestamp="1581358000109" />
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1581360197583">
+    <state x="434" y="122" width="546" height="592" key="#com.intellij.ide.util.MemberChooser/0.0.1600.876@0.0.1600.876" timestamp="1581529225708" />
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1581363227760">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1581360197583" />
-    <state width="950" height="238" key="GridCell.Tab.0.bottom" timestamp="1581362517296">
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1581363227760" />
+    <state width="1554" height="238" key="GridCell.Tab.0.bottom" timestamp="1581535408210">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="950" height="238" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1581362517296" />
-    <state width="950" height="238" key="GridCell.Tab.0.center" timestamp="1581362517296">
+    <state width="1554" height="238" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1581535408210" />
+    <state width="1554" height="238" key="GridCell.Tab.0.center" timestamp="1581535408209">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="950" height="238" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1581362517296" />
-    <state width="950" height="238" key="GridCell.Tab.0.left" timestamp="1581362517296">
+    <state width="1554" height="238" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1581535408209" />
+    <state width="1554" height="238" key="GridCell.Tab.0.left" timestamp="1581535408209">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="950" height="238" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1581362517296" />
-    <state width="950" height="238" key="GridCell.Tab.0.right" timestamp="1581362517296">
+    <state width="1554" height="238" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1581535408209" />
+    <state width="1554" height="238" key="GridCell.Tab.0.right" timestamp="1581535408210">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="950" height="238" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1581362517296" />
+    <state width="1554" height="238" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1581535408210" />
     <state width="1554" height="274" key="GridCell.Tab.1.bottom" timestamp="1579289248653">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
@@ -366,14 +384,14 @@
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state width="1554" height="274" key="GridCell.Tab.1.right/0.0.1600.876@0.0.1600.876" timestamp="1579289248653" />
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581360201307">
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581363229969">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1581360201307" />
-    <state x="556" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1581357661760">
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1581363229969" />
+    <state x="556" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1581525403698">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="556" y="285" key="com.intellij.ide.util.TipDialog/0.0.1600.876@0.0.1600.876" timestamp="1581357661760" />
+    <state x="556" y="285" key="com.intellij.ide.util.TipDialog/0.0.1600.876@0.0.1600.876" timestamp="1581525403698" />
     <state x="453" y="57" width="685" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579952896371">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
