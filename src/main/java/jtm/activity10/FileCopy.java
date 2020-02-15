@@ -19,7 +19,7 @@ public class FileCopy {
     public void copyFile(String filePath)  {
         try {
             List<String> linesInList = Files.readAllLines(Paths.get(filePath));
-            System.out.println(linesInList);
+//            System.out.println(linesInList);
             Files.write(Paths.get(filePath + "_backup"), linesInList);
         } catch (IOException e) {
             e.printStackTrace();

@@ -19,7 +19,7 @@ public class PracticalNumbers {
             List<Integer> divisors = findDivisors(numbers[i]);
             boolean isPractical = true;
             for (int k = 1; k < numbers[i]; k++) {
-                boolean sumPossible = isSumPossible(k, divisors);
+                boolean sumPossible = isSumPossible(k, divisors, new ArrayList<Integer>());
                 if (!sumPossible) {
                     isPractical = false;
                 }
@@ -36,11 +36,32 @@ public class PracticalNumbers {
         return answer;
     }
 
-    private boolean isSumPossible(int sum, List<Integer> numbers) {
+    private boolean isSumPossible(int sum, List<Integer> numbers, ArrayList<Integer> testList) {
         //return true if sum can be expressed from numbers
-//        if()
-        return false;
+        boolean check = false;
+        int result = 0;
+        for (int x : testList) {
+            result += x;
+            if (result == sum) {
+                System.out.println("sum(" + Arrays.toString(testList.toArray()) + ")=" + sum);
+                check = true;
+            } else if (result > sum) {
+                check = false;
+            } else {
+                for (int i = 0; i < numbers.size(); i++) {
+                    ArrayList<Integer> remaining = new ArrayList<>();
+                    int n = numbers.get(i);
+                    for (int j = i + 1; j < numbers.size(); j++) remaining.add(numbers.get(j));
+                    ArrayList<Integer> partial_rec = new ArrayList<>(testList);
+                    partial_rec.add(n);
+                    isSumPossible(sum, remaining, partial_rec);
+                    check = true;
+                }
+            }
+        }
+        return check;
     }
+
 
     private int[] fillArray(int from, int to) {
         int size = to - from;
@@ -62,50 +83,6 @@ public class PracticalNumbers {
                 divisorList.add(test[i]);
             }
         }
-       /* boolean status = false;
-        int sum = divisorList.get(0);
-        for (int i = 1; i < divisorList.size() - 1; i++) {
-            if (sum < divisorList.get(i) - 1) {
-                status = false;
-                break;
-            } else {
-                status = true;
-                sum += divisorList.get(i);
-            }
-
-        } */
         return divisorList;
-//        check(divisorList,number);
-//    }
-
-//    boolean status = false;
-//
-//    //        for (int j = 0; j < divisorList.size(); j++) {
-////            if (sum < divisorList.get(j)) {
-////                status = false;
-////                return status;
-////            } else {
-////                status = true;
-////                sum += divisorList.get(j);
-////            }
-////        }
-//    private void check(ArrayList<Integer> arr, int number){
-//    int []ispossible = new int[number];
-//
-//        for (int i = 0; i < number; ++i) {
-//            int val = arr.get(i);
-//
-//            // if it is already possible
-//            if (ispossible[val] == arr.get(i)) {
-//                continue;
-//            }
-//
-////            // make 1 to all it's next elements
-////            for (int j = 0; j + val < 1000; ++j)
-////                if (ispossible[j] == 1)
-////                    ispossible[j + val] = 1;
-//        }
-//        return
-//    }
     }
 }
