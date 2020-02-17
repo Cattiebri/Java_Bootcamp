@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72df9034-5aec-4dbd-8a28-40774da62404" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/activity11/SimpleCalcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/activity11/VendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/activity11/VendingMachineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/activity11/VendingMachineVerify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity10/FileCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/activity10/FileCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/JTM.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/JTM.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/activity08/SimpleCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/activity08/SimpleCalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jtm/extra03/PracticalNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/extra03/PracticalNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,94 +48,100 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.PracticalNumbersTest1">
-    <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jtm.activity10.FileCopy" />
+  <component name="RunManager" selected="JUnit.VendingMachineTest.testAllSmallLetters">
+    <configuration name="SimpleCalcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jtm.activity10.*" />
+          <option name="PATTERN" value="jtm.activity11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileCopyTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JTM_SO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jtm.activity10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jtm.activity10" />
-      <option name="MAIN_CLASS_NAME" value="jtm.activity10.FileCopyTest1" />
+      <option name="PACKAGE_NAME" value="jtm.activity11" />
+      <option name="MAIN_CLASS_NAME" value="jtm.activity11.SimpleCalcTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonRepoTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleCalcTest.testDivideInRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jtm.activity10.*" />
+          <option name="PATTERN" value="jtm.activity11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jtm.activity10" />
-      <option name="MAIN_CLASS_NAME" value="jtm.activity10.PersonRepoTest1" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="jtm.activity11" />
+      <option name="MAIN_CLASS_NAME" value="jtm.activity11.SimpleCalcTest" />
+      <option name="METHOD_NAME" value="testDivideInRange" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticalNumbersTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleCalcTest.testDivideOutOfRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jtm.extra03.*" />
+          <option name="PATTERN" value="jtm.activity11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jtm.extra03" />
-      <option name="MAIN_CLASS_NAME" value="jtm.extra03.PracticalNumbersTest1" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="jtm.activity11" />
+      <option name="MAIN_CLASS_NAME" value="jtm.activity11.SimpleCalcTest" />
+      <option name="METHOD_NAME" value="testDivideOutOfRange" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCalcTests1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VendingMachineTest.testAllSmallLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jtm.activity08.*" />
+          <option name="PATTERN" value="jtm.activity11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jtm.activity08" />
-      <option name="MAIN_CLASS_NAME" value="jtm.activity08.SimpleCalcTests1" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="jtm.activity11" />
+      <option name="MAIN_CLASS_NAME" value="jtm.activity11.VendingMachineTest" />
+      <option name="METHOD_NAME" value="testAllSmallLetters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendingMachineTest.testValueFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JTM_SO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jtm.activity11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jtm.activity11" />
+      <option name="MAIN_CLASS_NAME" value="jtm.activity11.VendingMachineTest" />
+      <option name="METHOD_NAME" value="testValueFormat" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FileCopy" />
-      <item itemvalue="JUnit.PracticalNumbersTest1" />
-      <item itemvalue="JUnit.SimpleCalcTests1" />
-      <item itemvalue="JUnit.FileCopyTest1" />
-      <item itemvalue="JUnit.PersonRepoTest1" />
+      <item itemvalue="JUnit.SimpleCalcTest.testDivideOutOfRange" />
+      <item itemvalue="JUnit.SimpleCalcTest.testDivideInRange" />
+      <item itemvalue="JUnit.SimpleCalcTest" />
+      <item itemvalue="JUnit.VendingMachineTest.testAllSmallLetters" />
+      <item itemvalue="JUnit.VendingMachineTest.testValueFormat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PracticalNumbersTest1" />
-        <item itemvalue="JUnit.FileCopyTest1" />
-        <item itemvalue="Application.FileCopy" />
-        <item itemvalue="JUnit.PersonRepoTest1" />
-        <item itemvalue="JUnit.SimpleCalcTests1" />
+        <item itemvalue="JUnit.VendingMachineTest.testAllSmallLetters" />
+        <item itemvalue="JUnit.VendingMachineTest.testValueFormat" />
+        <item itemvalue="JUnit.SimpleCalcTest" />
+        <item itemvalue="JUnit.SimpleCalcTest.testDivideInRange" />
+        <item itemvalue="JUnit.SimpleCalcTest.testDivideOutOfRange" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581708688170</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Practical numbers in progress">
+      <created>1581761241802</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1581761241802</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -321,7 +339,8 @@
     <MESSAGE value="Extra03 still in progress (3101)" />
     <MESSAGE value="Try-Catch task - DONE!" />
     <MESSAGE value="Activity 10 - DONE!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Activity 10 - DONE!" />
+    <MESSAGE value="Practical numbers in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practical numbers in progress" />
   </component>
   <component name="WindowStateProjectService">
     <state x="258" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579285727087">
@@ -340,50 +359,50 @@
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state x="434" y="122" width="546" height="592" key="#com.intellij.ide.util.MemberChooser/0.0.1600.876@0.0.1600.876" timestamp="1581705785679" />
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1581708687979">
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1581761241640">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1581708687979" />
-    <state width="934" height="238" key="GridCell.Tab.0.bottom" timestamp="1581758712948">
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1581761241640" />
+    <state width="934" height="272" key="GridCell.Tab.0.bottom" timestamp="1581966700795">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="934" height="238" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1581758712948" />
-    <state width="934" height="238" key="GridCell.Tab.0.center" timestamp="1581758712947">
+    <state width="934" height="272" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1581966700795" />
+    <state width="934" height="272" key="GridCell.Tab.0.center" timestamp="1581966700794">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="934" height="238" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1581758712947" />
-    <state width="934" height="238" key="GridCell.Tab.0.left" timestamp="1581758712947">
+    <state width="934" height="272" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1581966700794" />
+    <state width="934" height="272" key="GridCell.Tab.0.left" timestamp="1581966700793">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="934" height="238" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1581758712947" />
-    <state width="934" height="238" key="GridCell.Tab.0.right" timestamp="1581758712948">
+    <state width="934" height="272" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1581966700793" />
+    <state width="934" height="272" key="GridCell.Tab.0.right" timestamp="1581966700794">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="934" height="238" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1581758712948" />
-    <state width="1554" height="274" key="GridCell.Tab.1.bottom" timestamp="1581708720185">
+    <state width="934" height="272" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1581966700794" />
+    <state width="934" height="272" key="GridCell.Tab.1.bottom" timestamp="1581966700797">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="274" key="GridCell.Tab.1.bottom/0.0.1600.876@0.0.1600.876" timestamp="1581708720185" />
-    <state width="1554" height="274" key="GridCell.Tab.1.center" timestamp="1581708720184">
+    <state width="934" height="272" key="GridCell.Tab.1.bottom/0.0.1600.876@0.0.1600.876" timestamp="1581966700797" />
+    <state width="934" height="272" key="GridCell.Tab.1.center" timestamp="1581966700796">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="274" key="GridCell.Tab.1.center/0.0.1600.876@0.0.1600.876" timestamp="1581708720184" />
-    <state width="1554" height="274" key="GridCell.Tab.1.left" timestamp="1581708720183">
+    <state width="934" height="272" key="GridCell.Tab.1.center/0.0.1600.876@0.0.1600.876" timestamp="1581966700796" />
+    <state width="934" height="272" key="GridCell.Tab.1.left" timestamp="1581966700795">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="274" key="GridCell.Tab.1.left/0.0.1600.876@0.0.1600.876" timestamp="1581708720183" />
-    <state width="1554" height="274" key="GridCell.Tab.1.right" timestamp="1581708720184">
+    <state width="934" height="272" key="GridCell.Tab.1.left/0.0.1600.876@0.0.1600.876" timestamp="1581966700795" />
+    <state width="934" height="272" key="GridCell.Tab.1.right" timestamp="1581966700796">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="274" key="GridCell.Tab.1.right/0.0.1600.876@0.0.1600.876" timestamp="1581708720184" />
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581708690428">
+    <state width="934" height="272" key="GridCell.Tab.1.right/0.0.1600.876@0.0.1600.876" timestamp="1581966700796" />
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581761243512">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1581708690428" />
-    <state x="556" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1581754260498">
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1581761243512" />
+    <state x="556" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1581960974530">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="556" y="285" key="com.intellij.ide.util.TipDialog/0.0.1600.876@0.0.1600.876" timestamp="1581754260498" />
+    <state x="556" y="285" key="com.intellij.ide.util.TipDialog/0.0.1600.876@0.0.1600.876" timestamp="1581960974530" />
     <state x="453" y="57" width="685" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579952896371">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
@@ -392,14 +411,17 @@
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state x="445" y="36" width="710" height="807" key="find.popup/0.0.1600.876@0.0.1600.876" timestamp="1579287901459" />
-    <state x="463" y="188" width="672" height="678" key="search.everywhere.popup" timestamp="1580494944783">
+    <state x="463" y="188" width="672" height="678" key="search.everywhere.popup" timestamp="1581964052123">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="463" y="188" width="672" height="678" key="search.everywhere.popup/0.0.1600.876@0.0.1600.876" timestamp="1580494944783" />
+    <state x="463" y="188" width="672" height="678" key="search.everywhere.popup/0.0.1600.876@0.0.1600.876" timestamp="1581964052123" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JTM$RandomPersonTest1.ic" NAME="RandomPersonTest1 Coverage Results" MODIFIED="1579284751794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>jtm.activity03.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JTM$SimpleCalcTest.ic" NAME="SimpleCalcTest Coverage Results" MODIFIED="1581962837837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>jtm.activity11.*</FILTER>
     </SUITE>
   </component>
 </project>

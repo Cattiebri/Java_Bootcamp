@@ -13,7 +13,7 @@ public class SimpleCalc {
 	 */
 
 
-    public static Integer add(int a, int b) throws SimpleCalcException {
+    public static Integer add(int a, int b) {
         // TODO implement adding operation
         int result = a + b;
         try {
@@ -26,7 +26,7 @@ public class SimpleCalc {
         }
     }
 
-    public static Integer subtract(int a, int b) throws SimpleCalcException {
+    public static Integer subtract(int a, int b)  {
         // TODO implement subtract operation
         int result = a - b;
         try {
@@ -39,7 +39,7 @@ public class SimpleCalc {
         }
     }
 
-    public static Integer multiply(int a, int b) throws SimpleCalcException {
+    public static Integer multiply(int a, int b) {
         // TODO implement multiply operation
         int result = a * b;
         try {
@@ -52,7 +52,7 @@ public class SimpleCalc {
         }
     }
 
-    public static Integer divide(int a, int b) throws SimpleCalcException {
+    public static Integer divide(int a, int b)  {
         // TODO implement divide operation
         int result = a / b;
         try {

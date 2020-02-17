@@ -10,6 +10,7 @@ public class PracticalNumbers {
     // TODO Read article https://en.wikipedia.org/wiki/Practical_number
     // Implement method, which returns practical numbers in given range
     // including
+
     public String getPracticalNumbers(int from, int to) {
 
         String answer = "[";
@@ -19,7 +20,7 @@ public class PracticalNumbers {
             List<Integer> divisors = findDivisors(numbers[i]);
             boolean isPractical = true;
             for (int k = 1; k < numbers[i]; k++) {
-                boolean sumPossible = isSumPossible(k, divisors, new ArrayList<Integer>());
+                boolean sumPossible = sum_up(divisors, k);
                 if (!sumPossible) {
                     isPractical = false;
                 }
@@ -36,30 +37,40 @@ public class PracticalNumbers {
         return answer;
     }
 
-    private boolean isSumPossible(int sum, List<Integer> numbers, ArrayList<Integer> testList) {
+    private boolean isSumPossible(int sum, List<Integer> numbers) {
         //return true if sum can be expressed from numbers
-        boolean check = false;
-        int result = 0;
-        for (int x : testList) {
-            result += x;
-            if (result == sum) {
-                System.out.println("sum(" + Arrays.toString(testList.toArray()) + ")=" + sum);
-                check = true;
-            } else if (result > sum) {
-                check = false;
-            } else {
-                for (int i = 0; i < numbers.size(); i++) {
-                    ArrayList<Integer> remaining = new ArrayList<>();
-                    int n = numbers.get(i);
-                    for (int j = i + 1; j < numbers.size(); j++) remaining.add(numbers.get(j));
-                    ArrayList<Integer> partial_rec = new ArrayList<>(testList);
-                    partial_rec.add(n);
-                    isSumPossible(sum, remaining, partial_rec);
-                    check = true;
-                }
-            }
+
+        return true;
+    }
+
+    private boolean sum_up(List<Integer> numbers, int target) {
+        if(sum_up_recursive(numbers, target, new ArrayList<Integer>()))
+            return true;
+        else
+            return false;
+    }
+
+    private boolean sum_up_recursive(List<Integer> numbers, int target, List<Integer> partial) {
+        int s = 0;
+        for (int x : partial) s += x;
+
+        if (s == target) {
+            System.out.println("sum(" + String.join(",", partial.toString()) + ")=" + target);
+            return true;}
+       else  if (s >= target)
+            return false;
+
+        for (int i = 0; i < numbers.size(); i++) {
+            List<Integer> remaining = new ArrayList<Integer>();
+            int n = numbers.get(i);
+            for (int j = i + 1; j < numbers.size(); j++) remaining.add(numbers.get(j));
+
+            List<Integer> partial_rec = new ArrayList<Integer>(partial);
+            partial_rec.add(n);
+            sum_up_recursive(remaining, target, partial_rec);
+            return false;
         }
-        return check;
+        return false;
     }
 
 
