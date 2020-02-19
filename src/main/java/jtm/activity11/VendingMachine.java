@@ -12,7 +12,7 @@ public class VendingMachine {
 
     public VendingMachine() {
 
-    	this.coinsInMachine = 0.0;
+        this.coinsInMachine = 0.00;
     }
 
     /*
@@ -25,9 +25,8 @@ public class VendingMachine {
     public void addProducts(String product, Double price) {
         if (products == null) {
             this.products = new HashMap<>();
-        } else {
-            this.products.put(product, price);
         }
+        this.products.put(product.toLowerCase(), price);
     }
 
     /*
@@ -36,7 +35,7 @@ public class VendingMachine {
      */
     public void depositCoins(double value) {
 
-    	coinsInMachine += value;
+        coinsInMachine += value;
     }
 
     /*
@@ -45,7 +44,7 @@ public class VendingMachine {
      */
     public String balance() {
 
-    	return String.format(".%2f", this.coinsInMachine);
+        return String.format("%.2f$", this.coinsInMachine);
     }
 
     /*
@@ -57,10 +56,16 @@ public class VendingMachine {
      * If user does not have enough coins return "Balance not enough"
      */
     public String chooseProduct(String product) {
-        if (this.coinsInMachine > this.products.get(product)) {
-            return product;
+        if (this.products.containsKey(product.toLowerCase())) {
+            if (this.coinsInMachine > this.products.get(product.toLowerCase())) {
+               this.coinsInMachine = this.coinsInMachine-this.products.get(product);
+                return product.toLowerCase();
+            } else {
+                return "Balance not enough";
+            }
+        } else {
+            return "Product not found";
         }
-        return null;
     }
 
     /*
@@ -68,8 +73,9 @@ public class VendingMachine {
      * balance to 0.00
      */
     public double ejectCoinsBack() {
-        coinsInMachine = 0.0;
-        return coinsInMachine;
+        double moneyToReturn = coinsInMachine;
+        this.coinsInMachine = 0.00;
+        return moneyToReturn;
     }
 
 }
