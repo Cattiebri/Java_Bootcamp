@@ -27,7 +27,30 @@ public class ConferenceTraveller {
      */
 
     public static String conferencePicker(String[] citiesVisited, String[] citiesOffered) {
-       return null;
+
+        String[] checkArray = new String[citiesOffered.length];
+        String cityToReturn = "";
+        for (int i = 0; i < citiesOffered.length; i++) {
+            for (int j = 0; j < citiesVisited.length; j++) {
+                if (citiesOffered[i].equals(citiesVisited[j])) {
+                    checkArray[i] = "check";
+                }
+            }
+            if (!(checkArray[i] == "check")) {
+                checkArray[i] = citiesOffered[i];
+            }
+        }
+
+        for (int k = 0; k < checkArray.length; k++) {
+            if (checkArray[k] == "check") {
+                cityToReturn = "No worthwhile conferences this year!";
+            } else {
+                cityToReturn = checkArray[k];
+                return cityToReturn;
+            }
+        }
+
+        return cityToReturn;
     }
 
     public static void main(String[] args) {
