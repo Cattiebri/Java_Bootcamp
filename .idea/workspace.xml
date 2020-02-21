@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72df9034-5aec-4dbd-8a28-40774da62404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/extra16/LunarCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/extra16/LunarCalculatorTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/extra17/PokerStraight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jtm/extra17/PokerStraightTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql-statements.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/JTM.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/JTM.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/extra13/ConferenceTraveller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/extra13/ConferenceTraveller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jtm/extra15/MorseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jtm/extra15/MorseCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +45,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.ConferenceTravellerTest1">
+  <component name="RunManager" selected="JUnit.MorseCodeTest1">
+    <configuration name="MorseCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jtm.extra15.MorseCode" />
+      <module name="JTM_SO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jtm.extra15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConferenceTravellerTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JTM_SO" />
       <extension name="coverage">
@@ -62,6 +69,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="jtm.extra13" />
       <option name="MAIN_CLASS_NAME" value="jtm.extra13.ConferenceTravellerTest1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MorseCodeTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JTM_SO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jtm.extra15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jtm.extra15" />
+      <option name="MAIN_CLASS_NAME" value="jtm.extra15.MorseCodeTest1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,38 +100,6 @@
       <option name="PACKAGE_NAME" value="jtm.activity11" />
       <option name="MAIN_CLASS_NAME" value="jtm.activity11.VendingMachineTest" />
       <option name="METHOD_NAME" value="testEjectMoney" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VendingMachineTest.testMoneyNotReduced" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JTM_SO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jtm.activity11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jtm.activity11" />
-      <option name="MAIN_CLASS_NAME" value="jtm.activity11.VendingMachineTest" />
-      <option name="METHOD_NAME" value="testMoneyNotReduced" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VendingMachineTest.testMultipleProductsNoEntry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JTM_SO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jtm.activity11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jtm.activity11" />
-      <option name="MAIN_CLASS_NAME" value="jtm.activity11.VendingMachineTest" />
-      <option name="METHOD_NAME" value="testMultipleProductsNoEntry" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,19 +122,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.VendingMachineTest.testMoneyNotReduced" />
       <item itemvalue="JUnit.VendingMachineTest.testMultipleProductsToBuy" />
-      <item itemvalue="JUnit.VendingMachineTest.testMultipleProductsNoEntry" />
       <item itemvalue="JUnit.VendingMachineTest.testEjectMoney" />
       <item itemvalue="JUnit.ConferenceTravellerTest1" />
+      <item itemvalue="JUnit.MorseCodeTest1" />
+      <item itemvalue="Application.MorseCode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MorseCodeTest1" />
+        <item itemvalue="Application.MorseCode" />
         <item itemvalue="JUnit.ConferenceTravellerTest1" />
         <item itemvalue="JUnit.VendingMachineTest.testEjectMoney" />
         <item itemvalue="JUnit.VendingMachineTest.testMultipleProductsToBuy" />
-        <item itemvalue="JUnit.VendingMachineTest.testMultipleProductsNoEntry" />
-        <item itemvalue="JUnit.VendingMachineTest.testMoneyNotReduced" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581966866785</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="extra13 - DONE!">
+      <created>1582308777790</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1582308777790</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -351,7 +348,8 @@
     <MESSAGE value="Activity 10 - DONE!" />
     <MESSAGE value="Practical numbers in progress" />
     <MESSAGE value="Vending Machine task -in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vending Machine task -in progress" />
+    <MESSAGE value="extra13 - DONE!" />
+    <option name="LAST_COMMIT_MESSAGE" value="extra13 - DONE!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="258" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579285727087">
@@ -370,26 +368,26 @@
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state x="434" y="122" width="546" height="592" key="#com.intellij.ide.util.MemberChooser/0.0.1600.876@0.0.1600.876" timestamp="1581705785679" />
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1582140244772">
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2" timestamp="1582308777620">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1582140244772" />
-    <state width="1554" height="236" key="GridCell.Tab.0.bottom" timestamp="1582308760010">
+    <state x="406" y="34" width="779" height="807" key="CommitChangelistDialog2/0.0.1600.876@0.0.1600.876" timestamp="1582308777620" />
+    <state width="1554" height="236" key="GridCell.Tab.0.bottom" timestamp="1582313101522">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="236" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1582308760010" />
-    <state width="1554" height="236" key="GridCell.Tab.0.center" timestamp="1582308760009">
+    <state width="1554" height="236" key="GridCell.Tab.0.bottom/0.0.1600.876@0.0.1600.876" timestamp="1582313101522" />
+    <state width="1554" height="236" key="GridCell.Tab.0.center" timestamp="1582313101521">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="236" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1582308760009" />
-    <state width="1554" height="236" key="GridCell.Tab.0.left" timestamp="1582308760009">
+    <state width="1554" height="236" key="GridCell.Tab.0.center/0.0.1600.876@0.0.1600.876" timestamp="1582313101521" />
+    <state width="1554" height="236" key="GridCell.Tab.0.left" timestamp="1582313101520">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="236" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1582308760009" />
-    <state width="1554" height="236" key="GridCell.Tab.0.right" timestamp="1582308760010">
+    <state width="1554" height="236" key="GridCell.Tab.0.left/0.0.1600.876@0.0.1600.876" timestamp="1582313101520" />
+    <state width="1554" height="236" key="GridCell.Tab.0.right" timestamp="1582313101522">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state width="1554" height="236" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1582308760010" />
+    <state width="1554" height="236" key="GridCell.Tab.0.right/0.0.1600.876@0.0.1600.876" timestamp="1582313101522" />
     <state width="934" height="272" key="GridCell.Tab.1.bottom" timestamp="1581966700797">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
@@ -406,10 +404,10 @@
       <screen x="0" y="0" width="1600" height="876" />
     </state>
     <state width="934" height="272" key="GridCell.Tab.1.right/0.0.1600.876@0.0.1600.876" timestamp="1581966700796" />
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582140248672">
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582308780313">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
-    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1582140248672" />
+    <state x="395" y="174" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1600.876@0.0.1600.876" timestamp="1582308780313" />
     <state x="483" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1582306523847">
       <screen x="0" y="0" width="1600" height="876" />
     </state>
