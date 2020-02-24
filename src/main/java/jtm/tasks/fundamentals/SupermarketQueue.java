@@ -1,7 +1,6 @@
 package jtm.tasks.fundamentals;
 
 import jtm.activity03.Array;
-import org.assertj.core.internal.cglib.asm.$Attribute;
 
 import java.util.Arrays;
 
