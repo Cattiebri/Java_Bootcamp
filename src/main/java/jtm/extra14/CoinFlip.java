@@ -3,11 +3,13 @@ package jtm.extra14;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 public class CoinFlip {
+
 
     /*
     You will be given an integer n, which is the number of times that is thown a coin.
@@ -21,8 +23,35 @@ public class CoinFlip {
      */
 
     public static String[] coinFlip(int n) {
-        return null;
+        int optionCount = 2 ^ n;
+        String combo = "";
+
+        List<String> combos = new ArrayList<>();
+
+        for (int i = 0; i < optionCount; i++) {
+            while (!combos.contains(combo)) {
+//                combo = generateCombo(n);
+                combos.add(combo);
+            }
+        }
+
+        String[] res = combos.toArray(new String[0]);
+        return res;
     }
+
+//    public static String generateCombo(int n) {
+//        int stringLength = n;
+//        String ht = "HT";
+//        char answerChar;
+//        Random rd = new Random();
+//        for (int i = 0; i<n; i++) {
+//            answerChar.join(ht.charAt(rd.nextInt(n)));
+//        }
+//        String answer = String.valueOf(answerChar);
+//        System.out.println(answerChar);
+//        System.out.println(answer);
+//        return answer;
+//    }
 
     public static void main(String[] args) {
         //Expected "HH", "HT", "TH", "TT"
